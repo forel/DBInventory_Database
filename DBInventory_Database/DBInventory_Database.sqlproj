@@ -62,8 +62,10 @@
     <Folder Include="Properties" />
     <Folder Include="dbo" />
     <Folder Include="dbo\tables" />
+    <Folder Include="dbo\stored_procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\tables\servers_list.sql" />
+    <Build Include="dbo\tables\dbo.log_table.sql" />
   </ItemGroup>
 </Project>
