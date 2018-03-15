@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="cb815710-58d8-4be9-8067-ddd7c4fa9351" ChangeDateTime="03/15/2018 19:00:03">
+    <Property Name="ElementName" Value="[dbo].[catalog_rpo_rto].[period]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[catalog_rpo_rto]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="interval" />
+  </Operation>
+</Operations>

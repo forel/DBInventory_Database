@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[servers_list](
+﻿CREATE TABLE [dbo].[Servers_List](
 	[id] [int] IDENTITY(1,1) NOT NULL,
 	[server_dnsname] [varchar](255) default '',
 	[server_address] [varchar](64) default '0.0.0.0',

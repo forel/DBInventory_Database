@@ -63,9 +63,17 @@
     <Folder Include="dbo" />
     <Folder Include="dbo\tables" />
     <Folder Include="dbo\stored_procedures" />
+    <Folder Include="scripts" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\tables\servers_list.sql" />
-    <Build Include="dbo\tables\dbo.log_table.sql" />
+    <Build Include="dbo\tables\dbo.Servers_List.sql" />
+    <Build Include="dbo\tables\dbo.Catalog_RPO_RTO.sql" />
+    <Build Include="dbo\tables\dbo.Catalog_Objective.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="scripts\PostDeployment_Fill_Catalogs.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="DBInventory_Database.refactorlog" />
   </ItemGroup>
 </Project>
